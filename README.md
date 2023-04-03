@@ -1,4 +1,5 @@
 # spring-cloud-functions
+
 ``
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
@@ -6,10 +7,12 @@
 </dependency>
 ``
 
-Once you define a function, you also need to expose it as a @Bean.
+
+Once you define a function, you also need to expose it as a @Bean and return type as Function
 
 
-##Testing 
+##Testing
+
 open terminal and hit curl command
 
 ``
